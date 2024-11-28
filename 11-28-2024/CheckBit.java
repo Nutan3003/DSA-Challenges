@@ -1,4 +1,4 @@
-// Solution for the problem on 2024-11-28
+
 class CheckBit {
   // Function to check if the Kth bit is set or not
   static boolean checkKthBit(int n, int k) {
