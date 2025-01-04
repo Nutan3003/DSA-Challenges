@@ -33,31 +33,27 @@ left = "01110" and right = "1", score = 2 + 1 = 3
 
 ## Description:
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+Given a string s, return the number of unique palindromes of length three that are a subsequence of s.
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Note that even if there are multiple ways to obtain the same subsequence, it is still only counted once.
 
-You can return the answer in any order.
+A palindrome is a string that reads the same forwards and backwards.
+
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+
+For example, "ace" is a subsequence of "abcde".
 
 ## Example 1:
 
 ## Input:
-nums = [2,7,11,15], target = 9
-
+ s = "aabca"
 ## Output:
-[0,1]
+ 3
+## Explanation: 
+The 3 palindromic subsequences of length 3 are:
+- "aba" (subsequence of "aabca")
+- "aaa" (subsequence of "aabca")
+### Solution:
 
-## Explanation:
-Because nums[0] + nums[1] == 9, we return [0, 1].
-
-### Solution1:
-
-[Solution Code](./Two_sum.java)
-Solution using the time complexity O(N) and space complexity O(N)
-
-### Solution2:
-
-[Solution Code](./Two_sum1.java)
-Solution using the time complexity O(N^2) and space complexity O(1)
-
+[Solution Code](./Solution.java)
 # -------------------------------------------------------------------------------------------------------
